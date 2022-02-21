@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.board_zone{
+    display: flex;
+}
+
+.board{
+    width: 300px;
+    height: 100vh;
+    padding: 10px;
+    border-right: 2px solid rgb(129, 128, 128);
+}
+
+.board:last-child{
+    border-right: none;
+}
+
+.card{
+    height: 150px;
+    width: 280px;
+    background: rgb(165, 165, 165);
+    border: 2px solid rgb(94, 92, 92);
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.card_zone{
+    min-height: 150px;
+}
+
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+}
